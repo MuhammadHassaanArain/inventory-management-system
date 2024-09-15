@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Milestone-4</title>
+  </head>
+  <body>
+    <header>
+      <h2>Inventory Management System</h2>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </main>
+    <div id="formdiv">
+      <form id="form">
+        <label for="productname">Product Name:</label>
+        <input
+          id="getproductname"
+          type="text"
+          placeholder="enter product name to add"
+        />
+
+        <label for="productquantity">Product Quantity</label>
+        <input
+          id="getproductquantity"
+          type="number"
+          placeholder="enter product quantity to add"
+        />
+
+        <label for="productprice">Product Price</label>
+        <input
+          id="getproductprice"
+          type="number"
+          placeholder="enter product price to add"
+        />
+
+        <button type="submit">Add to List</button>
+      </form>
+    </div>
+    <footer>
+      <span>Created By Hassaan Arain</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
